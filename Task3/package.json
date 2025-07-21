@@ -1,0 +1,43 @@
+{
+  "name": "wepmap",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.33.9",
+    "@arcgis/map-components": "^4.33.10",
+    "@esri/arcgis-rest-demographics": "^4.0.3",
+    "@esri/arcgis-rest-developer-credentials": "^2.1.0",
+    "@esri/arcgis-rest-elevation": "^1.0.0",
+    "@esri/arcgis-rest-feature-service": "^4.1.0",
+    "@esri/arcgis-rest-geocoding": "^4.0.3",
+    "@esri/arcgis-rest-portal": "^4.6.1",
+    "@esri/arcgis-rest-request": "^4.6.0",
+    "@esri/arcgis-rest-routing": "^4.0.3",
+    "@esri/calcite-components": "^3.2.1",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "vite": "^7.0.0"
+  }
+}
